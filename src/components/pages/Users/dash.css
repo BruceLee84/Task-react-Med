@@ -1,0 +1,246 @@
+.bc{
+    background-color: teal;
+    width: 100%;
+    height: 60px;
+}
+
+
+.user{
+    /* float: right; */
+    margin-top: 30px;
+    margin-left: 50px;
+    border: none;
+    font-size: 28px;
+    color:lightgray;
+    font-weight: bold;
+    /* width: 45px; */
+    cursor: pointer;
+}
+
+.pro{
+    /* float: right; */
+    /* margin-right: 50px; */
+    margin-top: 30px;
+    margin-left: 90px ;
+    border: 2px solid white;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 12px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.pro2{
+    /* float: right; */
+    /* margin-right: 50px; */
+    margin-top: 30px;
+    margin-left: 80px ;
+    border: 2px solid white;
+    font-size: large;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pro3{
+    /* float: right; */
+    /* margin-right: 50px; */
+    margin-top: 30px;
+    margin-left: 70px ;
+    border: 2px solid white;
+    font-size: large;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.mgr{
+    display: grid;
+    grid: 400px/ auto auto;
+}
+
+.dash{
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.dashpro{
+    /* margin-top: 10px;
+    margin-left: 130px; */
+    font-weight: bold;
+}
+
+/* .row{
+  margin: 0 -5px;
+}
+
+.row:after{
+    content: "";
+     display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+} */
+
+
+.grid5{
+    display: grid;
+    grid: 350px/ auto auto auto;
+    margin-top: 30px;
+}
+
+.nav-bar{
+    background-color: teal;
+}
+.head{
+    padding: 10px;
+    color: grey;
+    cursor: pointer;
+    /* margin-top: 10px; */
+}
+
+/* antd */
+.antd{
+    margin-top: -12px;
+}
+
+#components-layout-demo-responsive .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .site-layout-sub-header-background {
+    background: #fff;
+  }
+  
+  .site-layout-background {
+    background: #fff;
+  }
+
+
+
+
+.w3-sidebar{
+  width: 25%;   
+}
+.styler{
+    margin-left: 25%;
+}
+
+.dash-class{
+    margin-right: 1170px;
+    margin-top: -20px;
+}
+
+.dash-classs{
+    color:lightgray;
+    font-weight: bold;
+}
+
+.side-bar{
+    margin-top: -30px;
+    background-color: seagreen;
+    width: 300px;
+    height: 570px;
+}
+
+.table-slider{
+    margin-left: 310px;
+    margin-top: -560px;
+}
+
+.dashboard-btn{
+    width: 150px;
+}
+
+
+.side-bar-pro{
+    margin-top: -30px;
+    background-color: seagreen;
+    width: 300px;
+    height: 1300px;
+}
+
+.table-slider-pro{
+    margin-left: 310px;
+    margin-top: -1290px;
+}
+
+.dash-user-card{
+    margin-top: -450px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 300px;
+    height: 200px;
+    /* margin: auto; */
+    margin-left: 450px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.dash-cat-card{
+    margin-top: -200px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 300px;
+    height: 200px;
+    /* margin: auto; */
+    margin-left: 850px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.dash-pro-card{
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 300px;
+    height: 200px;
+    /* margin: auto; */
+    margin-left: 450px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.dash-pro-cards{
+    margin-top: -200px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 300px;
+    height: 200px;
+    /* margin: auto; */
+    margin-left: 850px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.user-dash-div{
+    font-weight: bold;
+    padding: 30px 95px;
+}

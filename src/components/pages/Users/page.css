@@ -1,0 +1,518 @@
+/*                                        login      page                                                */
+.login-card{
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 500px;
+    height: 480px;
+    /* margin: auto; */
+    margin-left: 400px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.login-page{
+    padding: 30px;
+}
+.loginh{
+    /* margin-left: 150px; */
+    font-weight: bold;
+}
+
+.login-form{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 300px;
+}
+
+.login-btn{
+    background-color: #04AA6D;
+    color: white;
+    /* padding: 14px 20px; */
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.login-btn:hover{
+    background-color: green;
+}
+
+.sign-btn{
+    background-color: #04AA6D;
+    color: white;
+    /* padding: 14px 20px; */
+    /* margin: 20px 0; */
+    margin-top: 20px;
+    margin-left: 130px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    opacity: 0.9;
+}
+
+.sign-btn:hover{
+    background-color: green;
+    /* opacity: 1.5; */
+}
+
+.or{
+    margin-top: -10px;
+    margin-left: 190px;
+}
+
+.pw{
+    margin-top: -15px;
+    font-weight: bold;
+    float: right;
+    color: black;
+    cursor: pointer;
+  }
+
+/* .media{
+    font-weight: bolder;
+    font-size: 12px;
+    margin-left: 30px;
+}   */
+
+.login-row{
+    display: table;
+}  
+
+.login-col{
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 30px;
+    /* margin-top: 6px;  */
+}
+
+.google-btn{
+    border: none;
+    background-color: #dd4b39;
+    color: white;
+    width: 150px;
+    height: 30px;
+    opacity: 0.8;
+}
+
+.google-btn:hover{
+    opacity: 1.5;
+}
+
+.face-btn{
+    border: none;
+    background-color: #3B5998;
+    color: white;
+    width: 150px;
+    height: 30px;
+    opacity: 0.8;
+}
+
+.face-btn:hover{
+    opacity: 1.5;
+}
+
+.column {
+    float: right;
+    margin-left: 65px;
+    width: 30%;
+    padding: 5px;
+  }
+
+.column2 {
+    float: left;
+    margin-right: 0px;
+    width: 15%;
+    padding: 5px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.pic{
+    width: 47px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.sw{
+    margin-left: 60px;
+    color: red;
+}
+
+.sw1{
+    margin-left: 110px;
+    color: red;
+}
+
+.sw2{
+    margin-left: 80px;
+    color: red;
+}
+
+.sw3{
+    margin-left: 100px;
+    color: red;
+}
+
+/* forgot page */
+
+.forgot{
+    margin-top: -70px;
+    padding-left: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.btn5{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 120px;
+    height: 35px;
+    background-color:darksalmon;
+    border-radius: 20px;
+}
+
+.new-acc{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+
+/*                                      signup                 page                               */
+
+
+.sign-card{
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 500px;
+    height: 600px;
+    /* margin: auto; */
+    margin-left: 400px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.containers{
+    /* margin-top: 40px; */
+    padding: 100px;
+    margin-left: 400px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+}
+
+
+.signUp-btn{
+    background-color: #04AA6D;
+    color: white;
+    /* padding: 14px 20px; */
+    /* margin: 20px 0; */
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.signUp-btn:hover{
+    background-color: green;
+}
+
+.have-acc{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.under-log{
+    cursor: pointer;
+}
+
+.ims{
+    /* margin-top: -40px; */
+    background-image: url("https://i.pinimg.com/originals/9d/4d/07/9d4d07ca7d591bb3cd3d9f4df2624bbf.jpg");
+    background-Position: center;
+    background-Size: cover;
+    background-Repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.box2{
+    margin-top: 30px;
+}
+
+.bgds{
+    padding: 45px;
+}
+
+.ins{
+    margin-top: 100px;
+    width: 300px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid black;
+    color: whitesmoke;
+}
+
+
+/*                                             user                    page                         */
+
+/* .head{
+    background-color: lightgrey;
+    height: 150px;
+} */
+
+.upcard{
+    margin-top: -450px;
+}
+
+.acc{
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    border-radius: 10px;
+    /* margin-left: 20px; */
+    cursor: no-drop;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 400px;
+    height: 450px;
+    /* margin: auto; */
+    margin-left: 750px;
+    text-align: center;
+    font-family: arial;
+}
+
+.cardim{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.downuser{
+    margin-top: 80px;
+}
+
+.card2{
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 150px;
+    max-width: 400px;
+    height: 450px;
+    /* margin: auto; */
+    /* margin-left: 800px; */
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+}
+
+.btn11{
+    margin-top: 40px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn11:hover, a:hover{
+    opacity: 0.7;
+}
+
+.btn11-1{
+    margin-top: 110px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn11-1:hover, a:hover{
+    opacity: 0.7;
+}
+
+.logout{
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    width: 80px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.logout:hover{
+    background-color: tomato;
+}
+
+
+.listh{
+    padding: 70px;
+    cursor: pointer;
+}
+
+.listh2{
+    margin-top: -70px;
+    cursor: pointer;
+}
+
+.listh3{
+    cursor: pointer;
+}
+
+.user-card{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 450px;
+    max-width: 400px;
+    height: 350px;
+    /* margin: auto; */
+    /* margin-left: 800px;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px; */
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 1000px;
+    height: 450px;
+    /* margin: auto; */
+    margin-left: 150px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.proup{
+    padding: 40px;
+}
+
+.user-form{
+    border: none;
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.user-label{
+    font-weight: bold;
+}
+
+.user-input{
+    width: 300px;
+    height: 40px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: lightgray;
+}
+
+.user-inputs{
+    width: 300px;
+    height: 40px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: lightgray;
+    cursor: not-allowed;
+}
+
+.user-btn{
+    background-color: #04AA6D;
+    color: white;
+    /* padding: 14px 20px; */
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.user-btn:hover{
+    background-color:#4CAF50 ;
+}
+
+.user-image{
+    width: 250px;
+    border: 2px solid darkgray;
+    border-radius: 50%;
+}
+
+.profile-left{
+    float: right;
+    margin-right: 350px;
+    margin-top: -400px;
+}
+
+.image-input{
+    float: right;
+    margin-right: 300px;
+    margin-top: -100px;
+}
+
+
+
+/*                              forgot                                 page                   */
+
+.password-card{
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 500px;
+    height: 380px;
+    /* margin: auto; */
+    margin-left: 400px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.password-card-2{
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 500px;
+    height: 480px;
+    /* margin: auto; */
+    margin-left: 400px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.new-acc-for{
+    margin-top: 10px;
+    margin-left: 190px;
+}
+
+.have-acc-for{
+    margin-top: 15px;
+    margin-left: 150px;
+}
